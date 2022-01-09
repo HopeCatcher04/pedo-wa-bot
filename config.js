@@ -18,7 +18,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.PINKY_SESSION === undefined ? '' : process.env.PINKY_SESSION,
+    SESSION: process.env.PINKY_SESSION === undefined ? 'Pinky___eyJjbGllbnRJRCI6Ikh4ZVc0UmJtSTdmYjIrWXpxWFlLQ3c9PSIsInNlcnZlclRva2VuIjoiMUBxZzRickNObm1MQ3c2c2lBdDAycUU4Q3ZsTTJ0U3JOL0JBcC9vbU43ek5EbXJXRm14NTMzMS9tL1FDdVNjRlB4SzdGWGlzQWZFaFZuRHc9PSIsImNsaWVudFRva2VuIjoiZlJEamtuK0g4QVhTb0NvM0tCdWVSTnlwNk95YjZKRXVWd2ZWbFRhWHN3UT0iLCJlbmNLZXkiOiJkYS80Nm5DQ2JOQ1dvNzgvbnpyNXR6cG1ZS1hHOVNRZ1VYb0lzV0hmVnRjPSIsIm1hY0tleSI6ImFaTjhJVTNaYnpteG00ZEJGZUFCbUxBem8wSEMxUzgxVXd5N1BETXRkbFU9In0=' : process.env.PINKY_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     REMOVE: process.env.THERI_KICK_GP === undefined ? 'false' : process.env.THERI_KICK_GP,
